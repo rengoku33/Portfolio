@@ -1,0 +1,3 @@
+add a pre-loader: 1--- useEffect hook to deliberality load the page later (app.js)
+                2--- conditional rendering based on useState hook and terniary operator (return statement in app.js)
+                3--- create and then animate the svg using framer motion module, load it in a seperate component with appropriate style

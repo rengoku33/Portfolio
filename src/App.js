@@ -1,7 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import Loader from './components/loader/loader';
+import Home from './components/home/home';
+
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
   const[isLoading, setIsLoading] = useState(true);
 
 
-  // async method to deliberality load the page later (for preloader)
+  // useEffect hook to deliberality load the page later (for preloader)
   useEffect(() => {
     const fakeDataFetch = () => {
       setTimeout(() => {
@@ -23,7 +24,7 @@ function App() {
   return (
     <div>
     {
-      isLoading ? <Loader /> : (<div className="App"><img src={logo} className="App-logo" alt="logo" /></div>)
+      isLoading ? <Loader /> : <Home />
     }
     </div>
   );
