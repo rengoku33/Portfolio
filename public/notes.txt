@@ -1,3 +1,8 @@
 add a pre-loader: 1--- useEffect hook to deliberality load the page later (app.js)
                 2--- conditional rendering based on useState hook and terniary operator (return statement in app.js)
                 3--- create and then animate the svg using framer motion module, load it in a seperate component with appropriate style
+
+routing using react-router-dom: 1--- npm i react-router-dom 
+                                2--- in index.js => import & cover the App component in Router
+                                3--- import Routes, Route and assign URL to Components
+                                4--- import link in the compnent and mention URL a text/ image will trigger (refer navbar container)

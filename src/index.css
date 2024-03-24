@@ -1,21 +1,30 @@
-body {
-  margin: 0;
-  padding: 16px 30px;
-  font-family: 'Manrope', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*    KEEP FIGHTING THE GOOD FIGHT     */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-a{
-  text-decoration: none;
-  color: black;
+:root{
+  --white-theme-background-color: #1d1d1d;
+  --white-theme-main-color: white;
+  --white-theme-sub-text-color: yellow;
+  --white-theme-nav-background-color: #181818;
 }
 
 *{
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html{
+  font-size: 63%;
+  height: 100%;
+}
+
+body{
+  background: var(--white-theme-background-color);
+  height: 100%;
+}
+
+#root{
+  height: 100%;
 }
