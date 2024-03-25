@@ -15,6 +15,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import particles from './utility/particles';
 import Experience from './container/experience';
+import { Animate } from 'react-simple-animate';
 
 
 function App() {
@@ -58,12 +59,21 @@ function App() {
     return (
       <div className='App'>
         {/* particles JS */}
+        <Animate
+        play
+        duration={16}
+        start={{
+                    opacity: 0
+                }}
+                end={{
+                    opacity: 1
+                }}>
         <Particles
           id="tsparticles"
           particlesLoaded={particlesLoaded}
           options={options}
         />
-
+        </Animate>
         {/* navbar */}
         <Navbar />
 

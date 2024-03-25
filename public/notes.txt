@@ -7,6 +7,9 @@
                                 3--- import Routes, Route and assign URL to Components
                                 4--- import link in the compnent and mention URL a text/ image will trigger (refer navbar container)
 
+3) Animate through react-simple-animate module: 1--- import the module (refer home/index.js)
+                                                2--- surround the element with <Animate> component and define animation
+
 0))) what is VITE? 
 
 ((( smooth transition after pre-loader,

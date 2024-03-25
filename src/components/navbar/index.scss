@@ -1,5 +1,6 @@
 
 .navbar{
+    animation: fadeIn 5s;
     background: transparent;
     height: 90px;
     display: flex;
@@ -7,7 +8,6 @@
     align-items: center;
     font-size: 1.2;
     position: sticky;
-    animation: typingEffect 3.3s;
 
     .navbar-container{
         background: transparent;
@@ -98,9 +98,9 @@
     }
 }
 
-@keyframes typingEffect{
+@keyframes fadeIn{
     from{
-        opacity: -3;
+        opacity: 0;
     }
     to{
         opacity: 1;

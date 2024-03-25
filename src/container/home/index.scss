@@ -25,7 +25,7 @@
             position: relative;
             overflow: hidden;
             white-space: nowrap;
-            animation: typingEffect 3.3s, glow 3.3s ease-in-out infinite alternate;
+            animation: typingEffect 5s, glow 3.3s ease-in-out infinite alternate;
         }
     }
 
@@ -74,7 +74,7 @@
 
 @keyframes typingEffect{
     from{
-        opacity: -3;
+        opacity: 0;
     }
     to{
         opacity: 1;
