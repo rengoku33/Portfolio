@@ -1,0 +1,98 @@
+
+.navbar{
+    background: transparent;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2;
+    position: sticky;
+
+    .navbar-container{
+        background: transparent;
+        margin-top: 7rem; //
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0px 20px;
+        flex: 1;
+    }
+
+    .navbar-container-logo{
+        color: var(--white-theme-main-color);
+        cursor: pointer;
+    }
+
+    .navbar-container-menu{
+        background: transparent;
+        display: flex;
+        list-style: none;
+        text-align: center;
+        //margin-right: 1rem;  //
+    }
+
+    .navbar-container-menu-item{
+        background: transparent;
+        line-height: 80px;
+        margin-right: 3.3rem;
+        font-size: 2.1rem;
+        
+        &::after{
+            content: '';
+            display: block;
+            height: 1.6px;
+            width: 0;
+            background: transparent;
+            transition: all 1s ease;
+        }
+
+        &:hover::after{
+            width: 100%;
+            background: var(--white-theme-main-color);
+        }
+
+        .navbar-link{
+            color: var(--white-theme-main-color);
+            text-decoration: none;
+            padding: 0.7rem;
+        }
+    }
+}
+
+.nav-icon{
+    display: none;
+}
+
+@media only screen and (max-width : 770px){
+    .navbar-container-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        border-top: 1px solid #282828;
+        position: absolute;
+        top: 90px;
+        left: -100%;
+        opacity: 1;
+        transition: all 1s ease;
+
+        &.activeClass{
+            background: black;
+            left: 0px;
+            opacity: 1;
+        }
+
+        .navbar-container-menu-item{
+            border-bottom: 1px solid #282828;
+            margin: 0px;
+            padding: 20px 0px;
+        }
+    }
+    .nav-icon{
+        display: block;
+        cursor: pointer;
+        color: var(--white-theme-main-color);
+        padding-right: 33px;
+    }
+}

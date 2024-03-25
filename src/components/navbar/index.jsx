@@ -15,11 +15,11 @@ const data = [
         to: '/about'
     },
     {
-        label: 'PROJECT',
+        label: 'PROJECTS',
         to: '/project'
     },
     {
-        label: 'SKILL',
+        label: 'SKILLS',
         to: '/skill'
     },
     {
@@ -33,33 +33,33 @@ const data = [
 ]
 
 const Navbar = () => {
-    const [toggleIcon, setToggleIcon]= useState(false);
+    const [toggleIcon, setToggleIcon] = useState(false);
     const handleToggleIcon = () => {
         setToggleIcon(!toggleIcon);
     }
 
-    return(
+    return (
         <div>
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to={'/'} className="navbar-logo-container">
-                    <img src={require('../logo/witcherGG.jpg')} alt="witcher logo" height={110}/>
+                        <img src={require('../logo/witcherGG.jpg')} alt="witcher logo" height={110} />
                     </Link>
                 </div>
-                <ul className="navbar-container-menu">
+                <ul className={`navbar-container-menu ${toggleIcon ? 'activeClass' : ''}`}>
                     {
-                        data.map((item,key) => (
-                        <li key={key} className="navbar-container-menu-item">
-                            <Link className="navbar-link" to={item.to}>
-                                {item.label}
-                            </Link>
-                        </li>
-                    ))
+                        data.map((item, key) => (
+                            <li key={key} className="navbar-container-menu-item">
+                                <Link className="navbar-link" to={item.to}>
+                                    {item.label}
+                                </Link>
+                            </li>
+                        ))
                     }
                 </ul>
                 <div className="nav-icon" onClick={handleToggleIcon}>
                     {
-                        toggleIcon ? <HiX size={33}/> : <FaBars size={33}/> 
+                        toggleIcon ? <HiX size={33} /> : <FaBars size={33} />
                     }
                 </div>
             </nav>
