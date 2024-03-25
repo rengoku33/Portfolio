@@ -25,13 +25,13 @@ export default {
     particles: {
       move: {
         direction: "none",
-        distance: 12,
+        distance: 550,
         enable: true,
         outModes: "none",
-        speed: 0.3
+        speed: 0.33
       },
       number: {
-        value: 390
+        value: 999
       },
       shape: {
         type: ["circle"]

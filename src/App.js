@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { useEffect, useState, useMemo } from 'react';
 import Loader from './components/loader/loader';
 import Home from './container/home/index';
@@ -14,6 +14,7 @@ import { loadFull } from 'tsparticles';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import particles from './utility/particles';
+import Experience from './container/experience';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
   console.log(init);
 
   // useState for pre-loader
-  const[isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
 
   // useEffect hook to deliberality load the page later (for preloader)
@@ -30,11 +31,11 @@ function App() {
       setTimeout(() => {
         setIsLoading(false);
       }, 3300);
-    } 
+    }
 
     fakeDataFetch();
   }, []);
-  
+
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadFull(engine);
@@ -49,46 +50,49 @@ function App() {
 
   //---alter particles.js in utility to change animation---
   const options = useMemo(
-    () => (particles),           
+    () => (particles),
     [],
   );
 
   if (!isLoading) {
     return (
-      <div>
-      {/* particles JS */}
-      <Particles
-        id="tsparticles"
-        particlesLoaded={particlesLoaded}
-        options={options}
-      />
+      <div className='App'>
+        {/* particles JS */}
+        <Particles
+          id="tsparticles"
+          particlesLoaded={particlesLoaded}
+          options={options}
+        />
 
-    {/* navbar */}
-    <Navbar />
+        {/* navbar */}
+        <Navbar />
 
-    {/* main page content */}
-    <Routes>
-      <Route index path='/' element={isLoading ? <Loader /> : <Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/contact' element={<Contact />} />
-      <Route path='/project' element={<Project />} />
-      <Route path='/resume' element={<Resume />} />
-      <Route path='/skill' element={<Skill />} />
-    </Routes>
-    </div>
+        {/* main page content */}
+        <div className='routes-container'>
+          <Routes>
+            <Route index path='/' element={isLoading ? <Loader /> : <Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/project' element={<Project />} />
+            <Route path='/resume' element={<Resume />} />
+            <Route path='/skill' element={<Skill />} />
+            <Route path='/experience' element={<Experience />} />
+          </Routes>
+        </div>
+      </div>
     );
   }
 
   return (
     <div>
-    <Routes>
-      <Route index path='/' element={isLoading ? <Loader /> : <Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/contact' element={<Contact />} />
-      <Route path='/project' element={<Project />} />
-      <Route path='/resume' element={<Resume />} />
-      <Route path='/skill' element={<Skill />} />
-    </Routes>
+      <Routes>
+        <Route index path='/' element={isLoading ? <Loader /> : <Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/project' element={<Project />} />
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/skill' element={<Skill />} />
+      </Routes>
     </div>
   );
 }

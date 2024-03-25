@@ -6,21 +6,22 @@ import { Link } from "react-router-dom";
 import "./index.scss";
 
 const data = [
+    
     {
-        label: 'HOME',
-        to: '/'
-    },
-    {
-        label: 'ABOUT',
+        label: 'ABOUT ME',
         to: '/about'
     },
     {
-        label: 'PROJECTS',
-        to: '/project'
+        label: 'EXPERIENCE',
+        to: '/experience'
     },
     {
         label: 'SKILLS',
         to: '/skill'
+    },
+    {
+        label: 'PROJECTS',
+        to: '/project'
     },
     {
         label: 'RESUME',

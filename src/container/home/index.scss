@@ -1,4 +1,93 @@
 *{
-    background-color: black;
+    background: transparent;
     color: white;
+}
+
+.home{
+    position: relative;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    .home-text-wrapper{
+        display: flex;
+        justify-content: center;
+
+        .h1-wrapper{
+            color: white;
+            margin: 0px;
+            font-weight: 330;
+            font-size: 7rem;
+            line-height: 10rem;
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typingEffect 3.3s, glow 3.3s ease-in-out infinite alternate;
+        }
+    }
+
+    .home-contact-button{
+        display: flex;
+        justify-content: center;
+        margin-top: 33px;
+
+        button{
+            border: 1.6px solid white;
+            cursor: pointer;
+            padding: 11px 77px;
+            font-size: 2rem;
+            background: transparent;
+            border-radius: 3.3px;
+            font-weight: 330;
+
+            &:hover{
+                background: white;
+                color: black;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .h1-wrapper{
+        font-size: 3rem;
+        line-height: 5rem;   
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 770px){
+    .h1-wrapper{
+        font-size: 4rem;
+        line-height: 6rem;   
+    }
+}
+
+@media only screen and (min-width: 771px) and (max-width: 999px){
+    .h1-wrapper{
+        font-size: 6rem;
+        line-height: 7rem;   
+    }
+}
+
+@keyframes typingEffect{
+    from{
+        opacity: -3;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+
+@keyframes glow{
+    from{
+        text-shadow: 0 0 5px white;
+    }
+    to{
+        text-shadow: 0 0 7px white, 0 0 3px white;
+    }
+    
 }

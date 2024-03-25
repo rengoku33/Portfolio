@@ -1,0 +1,29 @@
+*{
+    background: transparent;
+    color: white;
+}
+
+.home{
+    position: relative;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    .home-text-wrapper{
+        display: flex;
+        justify-content: center;
+
+        h1{
+            color: white;
+            margin: 0px;
+            font-weight: 330;
+            font-size: 7rem;
+            line-height: 10rem;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+}
