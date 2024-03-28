@@ -2,16 +2,16 @@
 .navbar{
     animation: fadeIn 5s;
     background: transparent;
-    height: 90px;
+    height: 120px;
     display: flex;
-    justify-content: center;
+    //justify-content: center;
     align-items: center;
     font-size: 1.2;
     position: sticky;
 
     .navbar-container{
         background: transparent;
-        margin-top: 7rem; //
+        margin-top: 3rem;
         display: flex;
         align-items: center;
         width: 100%;
@@ -20,7 +20,7 @@
         flex: 1;
     }
 
-    .navbar-container-logo{
+    .navbar-logo-container{
         color: var(--white-theme-main-color);
         cursor: pointer;
     }

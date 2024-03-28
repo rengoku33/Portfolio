@@ -18,8 +18,8 @@ const About = () => {
             front-end frameworks, data structures and algorithms, backend concepts etc, then implemented all of these concepts by creating 
             and publishing my first full-stack E-Commerce website for a retail clothing shop. I was over the moon, intrigued by various concepts 
             of web development. I realised there is much more than just coding, such as scalability, site-optimization, system design patterns, 
-            web hosting, networking concepts etc. I figured the best way to conquor them all is to learn and implement them, hence I became a 
-            freelance developer.
+            web hosting, networking concepts etc. I figured the best way to conquor them all is to learn and implement them, thus began my 
+            glorious lifetime journey as a software engineer.
             </p>
         </section>
     )
