@@ -1,0 +1,45 @@
+*{
+    background: transparent;
+    color: white;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    padding: 5%;
+
+    h2{
+        font-weight: 330;
+        font-size: 7rem;
+        letter-spacing: 1.6px;
+        text-transform: capitalize;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        animation: fadeIn 5s, glow 3.3s ease-in-out infinite alternate;
+
+    }
+
+}
+
+@keyframes typingEffect{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+
+@keyframes glow{
+    from{
+        text-shadow: 0 0 5px white;
+    }
+    to{
+        text-shadow: 0 0 7px white, 0 0 3px white;
+    }
+    
+}

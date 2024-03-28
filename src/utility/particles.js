@@ -31,7 +31,7 @@ export default {
         speed: 0.33
       },
       number: {
-        value: 999
+        value: 1600
       },
       shape: {
         type: ["circle"]

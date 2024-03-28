@@ -1,6 +1,6 @@
 import './App.scss';
 import { useEffect, useState, useMemo } from 'react';
-import Loader from './components/loader/loader';
+//import Loader from './components/loader/loader';
 import Home from './container/home/index';
 import About from './container/about/index';
 import Contact from './container/contact/index';
@@ -20,8 +20,7 @@ import { Animate } from 'react-simple-animate';
 
 function App() {
   const [init, setInit] = useState(false);
-  console.log(init);
-
+/*
   // useState for pre-loader
   const [isLoading, setIsLoading] = useState(true);
 
@@ -36,7 +35,7 @@ function App() {
 
     fakeDataFetch();
   }, []);
-
+*/
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadFull(engine);
@@ -55,13 +54,13 @@ function App() {
     [],
   );
 
-  if (!isLoading) {
+  if (init) {
     return (
       <div className='App'>
         {/* particles JS */}
         <Animate
         play
-        duration={16}
+        duration={7.7}
         start={{
                     opacity: 0
                 }}
@@ -80,7 +79,8 @@ function App() {
         {/* main page content */}
         <div className='routes-container'>
           <Routes>
-            <Route index path='/' element={isLoading ? <Loader /> : <Home />} />
+{/*         <Route index path='/' element={isLoading ? <Loader /> : <Home />} />  */}
+            <Route index path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/project' element={<Project />} />
@@ -95,14 +95,7 @@ function App() {
 
   return (
     <div>
-      <Routes>
-        <Route index path='/' element={isLoading ? <Loader /> : <Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/project' element={<Project />} />
-        <Route path='/resume' element={<Resume />} />
-        <Route path='/skill' element={<Skill />} />
-      </Routes>
+      
     </div>
   );
 }

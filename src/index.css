@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 :root{
-  --white-theme-background-color: #1d1d1d;
+  --white-theme-background-color: black;
   --white-theme-main-color: white;
   --white-theme-sub-text-color: yellow;
   --white-theme-nav-background-color: black;

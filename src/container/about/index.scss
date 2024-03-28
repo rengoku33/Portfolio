@@ -1,0 +1,30 @@
+*{
+    background: transparent;
+    color: white;
+}
+
+.about{
+    position:sticky;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+
+    padding-left: 7%;
+    padding-right: 7%;
+    color: white;
+    font-weight: 100;
+    font-size: 2.5rem;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
