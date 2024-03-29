@@ -1,0 +1,82 @@
+* {
+    background: transparent;
+    color: white;
+}
+
+.outer-class {
+    position: relative;
+    text-align: center;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    .outer-text-wrapper {
+        display: flex;
+        justify-content: center;
+
+        .h1-wrapper {
+            color: white;
+            margin: 0px;
+            font-weight: 330;
+            font-size: 4.4rem;
+            line-height: 10rem;
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: fadeIn 5s, glow 3.3s ease-in-out infinite alternate;
+        }
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 3px;
+
+        button {
+            border: 1.6px solid white;
+            cursor: pointer;
+            padding: 11px 33px;
+            background: transparent;
+            border-radius: 3.3px;
+
+            a {
+                font-weight: 100;
+                font-size: 2.5rem;
+                text-decoration: none;
+
+            }
+
+            &:hover {
+                background: white;
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px white;
+    }
+
+    to {
+        text-shadow: 0 0 7px white, 0 0 3px white;
+    }
+
+}

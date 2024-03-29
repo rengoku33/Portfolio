@@ -3,27 +3,46 @@
     color: white;
 }
 
-.home{
-    position: relative;
-    text-align: center;
+.exp{
     height: 100%;
+}
+
+.timeline{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+    width: 100%;
+    padding: 21px;
 
-    .home-text-wrapper{
+    .timeline-work, .timeline-study{
+        width:50%;
+        gap: 3rem;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
 
-        h1{
+        .header{
+            display: inline-block;
             color: white;
-            margin: 0px;
-            font-weight: 330;
-            font-size: 7rem;
-            line-height: 10rem;
+            font-size: 21px;
+            font-weight: 550;
+            line-height: 1rem;
+            letter-spacing: 0.6rem;
             position: relative;
-            overflow: hidden;
+            text-transform: uppercase;
+            padding: 6px 11px;
+            border-bottom: 1.6px solid white;
+        }
+        .header::before, .header::after{
+            position: absolute;
+            content: '';
+            width: 1.6px;
+            height: 5px;
+            background-color: white;
+            bottom: -1px;
+        }
+        .header::before{
+            left: 0;
+        }
+        .header::after{
+            right: 0;
         }
     }
 }

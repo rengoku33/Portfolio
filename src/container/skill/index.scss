@@ -1,0 +1,43 @@
+*{
+    background: transparent;
+    position: sticky;
+}
+
+.skills{
+    .skills-wrapper{
+        display: flex;
+        padding: 3px;
+        gap: 21px;
+    }
+    .inner-container{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .title{
+        display: inline-block;
+        color: white;
+        font-size: 33px;
+        font-weight: 550;
+        line-height: 1rem;
+        letter-spacing: 0.6px;
+        position: relative;
+        text-transform: uppercase;
+        padding: 16px;
+        border-bottom: 1.6px solid white;
+        &:hover{
+            background: white;
+            color: black;
+            cursor: pointer;
+        }
+    }
+    .item-wrapper{
+        padding:7px;
+        &:hover{
+            text-shadow: 0 0 11px white, 0 0 9px white;
+            cursor: pointer;
+        }
+    }
+}
