@@ -1,48 +1,78 @@
-*{
+* {
     background: transparent;
     color: white;
 }
 
-.exp{
+.exp {
     height: 100%;
 }
 
-.timeline{
+.timeline {
     display: flex;
     width: 100%;
     padding: 21px;
 
-    .timeline-work, .timeline-study{
-        width:50%;
+    .timeline-work,
+    .timeline-study {
+        width: 50%;
         gap: 3rem;
         display: flex;
         flex-direction: column;
 
-        .header{
+        .header {
+            text-align: center;
             display: inline-block;
             color: white;
-            font-size: 21px;
-            font-weight: 550;
+            font-size: 33px;
+            font-weight: 100;
             line-height: 1rem;
-            letter-spacing: 0.6rem;
+            letter-spacing: 0.3rem;
             position: relative;
             text-transform: uppercase;
             padding: 6px 11px;
-            border-bottom: 1.6px solid white;
+
+            &:hover {
+                text-shadow: 0 0 11px white, 0 0 9px white;
+                cursor: pointer;
+            }
         }
-        .header::before, .header::after{
-            position: absolute;
-            content: '';
-            width: 1.6px;
-            height: 5px;
-            background-color: white;
-            bottom: -1px;
+
+        .vert-timeline-element{
+            padding: 0px 0px 33px 0px;
+
+            &:last-child{
+                padding-bottom: 0px;
+            }
         }
-        .header::before{
-            left: 0;
+        .title-wrapper{
+            align-items: center;
+
+            h3{
+                font-weight: 160;
+                font-size: 33px;
+                line-height: 5.5rem;
+
+                &:hover {
+                    text-shadow: 0 0 11px white, 0 0 9px white;
+                    cursor: pointer;
+                }
+            }
+            h4{
+                font-weight: 300;
+                font-size: 21px;
+                margin-left: 33px;
+
+                &:hover {
+                    text-shadow: 0 0 11px white, 0 0 9px white;
+                    cursor: pointer;
+                }
+            }
+            p{
+                font-size: 21px;
+            }
         }
-        .header::after{
-            right: 0;
+        .vertical-timeline-element-content{
+            box-shadow: none;
         }
     }
 }

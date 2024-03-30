@@ -3,6 +3,7 @@ import { experience, education } from "./utils.js";
 import "./index.scss";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import {MdWork, MdBook} from "react-icons/md"
 
 const Experience = () => {
     return (
@@ -16,11 +17,21 @@ const Experience = () => {
                                 <VerticalTimelineElement
                                     key={i}
                                     className="vert-timeline-element"
+                                    contentStyle={{
+                                        background: 'none',
+                                        color: 'white',
+                                        border: '1px solid white' 
+                                        }}
+                                        icon={<MdWork />}
+                                        iconStyle={{
+                                            background: 'black',
+                                            color: 'white',
+                                        }}
                                 >
                                     <div className="title-wrapper">
-                                        <h3 className="title">{item.title}</h3>
-                                        <h4 className="date">{item.date}</h4>
-                                        <h4 className="descn">{item.descn}</h4>
+                                        <h3>{item.title}</h3>
+                                        <h4>{item.date}</h4>
+                                        <h4>{item.descn}</h4>
                                     </div>
                                 </VerticalTimelineElement>
                             ))
@@ -35,11 +46,20 @@ const Experience = () => {
                                 <VerticalTimelineElement
                                     key={i}
                                     className="vert-timeline-element"
+                                    contentStyle={{
+                                        background: 'none',
+                                        color: 'white',
+                                        border: '1px solid white' 
+                                        }}
+                                        icon={<MdBook />}
+                                        iconStyle={{
+                                            background: 'black',
+                                            color: 'white',
+                                        }}
                                 >
                                     <div className="title-wrapper">
-                                        <h3 className="title">{item.title}</h3>
-                                        <h4 className="date">{item.date}</h4>
-                                        <h4 className="descn">{item.descn}</h4>
+                                        <h3>{item.title}</h3>
+                                        <h4>{item.descn}</h4>
                                     </div>
                                 </VerticalTimelineElement>
                             ))

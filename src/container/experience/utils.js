@@ -1,11 +1,11 @@
 export const experience = [
     {
-        title: "Freelance Developer",
+        title: "Freelance Web Developer",
         date: "Apr 23 - Mar 24",
-        descn: "Created and maintained websites for 2 different industries"
+        descn: "Created and developed websites for 2 organizations"
     },
     {
-        title: "Sytems Trainee",
+        title: "Systems Trainee",
         date: "Jul 22 - Mar 23",
         descn: "Implemented minor changes in UI, Backend and DB"
     }
@@ -14,9 +14,11 @@ export const experience = [
 
 export const education = [
     {
-        title: "Udemy",
+        title: "VELS University - BCA (Hons)",
+        descn: "Learnt programming languages and basic theoretical concepts"
     },
     {
-        title: "NIIT",
+        title: "NIIT - Cloud and Software Engineering",
+        descn: "The inception for my life-time journey as a software engineer"
     }
 ]
