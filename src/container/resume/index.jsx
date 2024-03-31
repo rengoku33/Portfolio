@@ -21,7 +21,7 @@ const Resume = () => {
                     }}
                 >
                     <button>
-                        <a href="../../utility/dummy.pdf" download="dummy.pdf">
+                        <a href="../../utility/resume.pdf" download="resume.pdf">
                             Download Resume
                         </a>
                     </button>

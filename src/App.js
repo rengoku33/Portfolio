@@ -54,9 +54,14 @@ function App() {
     [],
   );
 
-  if (init) {
+  /*if (init) {
     return (
-      <div className='App'>
+      
+    );
+  }*/
+
+  return (
+    <div className='App'>
         {/* particles JS */}
         <Animate
         play
@@ -80,7 +85,7 @@ function App() {
         <div className='routes-container'>
           <Routes>
 {/*         <Route index path='/' element={isLoading ? <Loader /> : <Home />} />  */}
-            <Route index path='/' element={<Home />} />
+            <Route index path='/' element={init? <Home />: ''} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/project' element={<Project />} />
@@ -90,12 +95,6 @@ function App() {
           </Routes>
         </div>
       </div>
-    );
-  }
-
-  return (
-    <>
-    </>
   );
 }
 
