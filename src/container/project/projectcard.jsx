@@ -26,9 +26,9 @@ const ProjectCard = ({ project }) => {                             // fetch the 
     }
     return (
         <div className="product-card-container">
-            <img src={imgUrl} alt={`${title}`} onClick={redirectToDemo} />
+            <img src={imgUrl} alt={`${title}`} onClick={website? redirectToDemo:redirectToDocs} />
             <div className="footer">
-                <span className="title" onClick={redirectToDemo}>{title}</span>
+                <span className="title" onClick={website? redirectToDemo:redirectToDocs}>{title}</span>
                 <span className="description">
                     {displayIcons()}
                 </span>

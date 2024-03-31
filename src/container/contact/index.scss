@@ -17,6 +17,10 @@ p{
     font-weight: 100;
     font-size: 3rem;
     animation: fadeIn 5s;
+
+    &:hover{
+        text-shadow: 0 0 9px white, 0 0 3px white;
+    }
 }
 
 @keyframes fadeIn{
