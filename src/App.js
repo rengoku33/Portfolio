@@ -16,6 +16,7 @@ import Navbar from './components/navbar';
 import particles from './utility/particles';
 import Experience from './container/experience';
 import { Animate } from 'react-simple-animate';
+import Loader from './components/loader/loader';
 
 
 function App() {
@@ -85,13 +86,14 @@ function App() {
         <div className='routes-container'>
           <Routes>
 {/*         <Route index path='/' element={isLoading ? <Loader /> : <Home />} />  */}
-            <Route index path='/' element={init? <Home />: ''} />
+            <Route index path='/' element={init? <Home />: <Loader/>} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/project' element={<Project />} />
             <Route path='/resume' element={<Resume />} />
             <Route path='/skill' element={<Skill />} />
             <Route path='/experience' element={<Experience />} />
+            <Route path='/loader' element={<Loader />} />
           </Routes>
         </div>
       </div>
