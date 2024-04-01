@@ -2,7 +2,7 @@ export const experience = [
     {
         title: "Freelance Web Developer",
         date: "Oct 23 - Mar 24",
-        descn: "Created and developed websites for 2 organizations"
+        descn: "Created and developed a web application for a clothing shop"
     },
     {
         title: "Systems Trainee",
