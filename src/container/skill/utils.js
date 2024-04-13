@@ -40,7 +40,7 @@ export const SkillsData = [
         ]
     },
     {
-        label: "Other Tools",
+        label: "Utility",
         data: [
             {
                 skillName: "Git",

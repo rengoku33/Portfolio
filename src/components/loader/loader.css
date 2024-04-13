@@ -20,7 +20,7 @@
     height: 100vh;
     z-index: 10;
     position: fixed;
-    top: 77%;
+    top: 79%;
 
     background: transparent;
     display: flex;
@@ -33,12 +33,19 @@
     animation: glow 1.6s ease-in-out infinite alternate;
 }
 
-@keyframes glow{
-    from{
+@media only screen and (max-width : 533px) {
+    .waitText {
+        font-size: 21px;
+    }
+}
+
+@keyframes glow {
+    from {
         text-shadow: 0 0 0px white;
     }
-    to{
+
+    to {
         text-shadow: 0 0 16px white, 0 0 12px white;
     }
-    
+
 }

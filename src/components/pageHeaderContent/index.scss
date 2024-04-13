@@ -23,6 +23,20 @@
     }
 
 }
+@media only screen and (max-width : 933px) {
+    .wrapper{
+        h2 {
+            font-size: 5rem;
+        }
+    }
+}
+@media only screen and (max-width : 533px) {
+    .wrapper{
+        h2 {
+            font-size: 3rem;
+        }
+    }
+}
 
 @keyframes typingEffect{
     from{

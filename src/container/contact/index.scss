@@ -23,6 +23,14 @@ p{
     }
 }
 
+@media only screen and (max-width : 550px) {
+    .contact{
+        p{
+            font-size: 2rem;
+        }
+    }
+}
+
 @keyframes fadeIn{
     from{
         opacity: 0;

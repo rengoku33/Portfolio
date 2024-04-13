@@ -1,9 +1,10 @@
-*{
+* {
     background: transparent;
     color: white;
 }
 
-.home{
+.home {
+    z-index: 1;
     position: relative;
     text-align: center;
     height: 100%;
@@ -12,11 +13,11 @@
     align-content: center;
     flex-direction: column;
 
-    .home-text-wrapper{
+    .home-text-wrapper {
         display: flex;
         justify-content: center;
 
-        .h1-wrapper{
+        .h1-wrapper {
             color: white;
             margin: 0px;
             font-weight: 330;
@@ -29,12 +30,12 @@
         }
     }
 
-    .home-contact-button{
+    .home-contact-button {
         display: flex;
         justify-content: center;
         margin-top: 33px;
 
-        button{
+        button {
             border: 1.6px solid white;
             cursor: pointer;
             padding: 11px 77px;
@@ -43,7 +44,7 @@
             border-radius: 3.3px;
             font-weight: 330;
 
-            &:hover{
+            &:hover {
                 background: white;
                 color: black;
             }
@@ -51,43 +52,91 @@
     }
 }
 
-@media only screen and (max-width: 550px){
-    .h1-wrapper{
-        font-size: 3rem;
-        line-height: 5rem;   
+
+
+@media only screen and (max-width: 933px) {
+    .home {
+        .home-text-wrapper {
+            .h1-wrapper {
+                font-size: 55px;
+                line-height: 5rem;
+            }
+        }
+        .home-contact-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 16px;
+
+            button {
+                padding: 7px 55px;
+                font-size: 2.5rem;
+            }
+        }
     }
 }
 
-@media only screen and (min-width: 551px) and (max-width: 770px){
-    .h1-wrapper{
-        font-size: 4rem;
-        line-height: 6rem;   
+@media only screen and (max-width: 733px) {
+    .home {
+        .home-text-wrapper {
+            .h1-wrapper {
+                font-size: 41px;
+                line-height: 5rem;
+            }
+        }
+        .home-contact-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 16px;
+
+            button {
+                padding: 5px 33px;
+                font-size: 2rem;
+            }
+        }
     }
 }
 
-@media only screen and (min-width: 771px) and (max-width: 999px){
-    .h1-wrapper{
-        font-size: 6rem;
-        line-height: 7rem;   
+@media only screen and (max-width: 550px) {
+    .home {
+        .home-text-wrapper {
+            .h1-wrapper {
+                font-size: 27px;
+                line-height: 5rem;
+            }
+        }
+
+        .home-contact-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 16px;
+
+            button {
+                padding: 3px 16px;
+                font-size: 1.6rem;
+            }
+        }
     }
 }
 
-@keyframes fadeIn{
-    from{
+
+@keyframes fadeIn {
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
-    
+
 }
 
-@keyframes glow{
-    from{
+@keyframes glow {
+    from {
         text-shadow: 0 0 5px white;
     }
-    to{
+
+    to {
         text-shadow: 0 0 7px white, 0 0 3px white;
     }
-    
+
 }
