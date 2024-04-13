@@ -3,7 +3,7 @@ import "./projectcard.scss";
 import { FaGithub, FaGlobe, FaFilePdf } from 'react-icons/fa';
 
 const ProjectCard = ({ project }) => {                             // fetch the json format data
-    const { title, imgUrl, website, repo, docs } = project;            // de-structure
+    const { title, imgUrl, website, repo, docs, descn } = project;            // de-structure
 
     const redirectToDemo = () => {
         window.open(website, '_blank', 'noopener, noreferrer');
@@ -30,6 +30,9 @@ const ProjectCard = ({ project }) => {                             // fetch the 
             <div className="footer">
                 <span className="title" onClick={website? redirectToDemo:redirectToDocs}>{title}</span>
                 <span className="description">
+                    {descn}
+                </span>
+                <span className="icool">
                     {displayIcons()}
                 </span>
             </div>
