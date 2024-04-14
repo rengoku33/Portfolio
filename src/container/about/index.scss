@@ -5,6 +5,8 @@
 
 .about{
     position:sticky;
+    padding-bottom: 21px;
+
 }
 
 p{
@@ -24,14 +26,19 @@ p{
         p{
         font-size: 1.9rem;
         }
+        padding-bottom: 21px;
+
     }
+
 }
 
 @media only screen and (max-width : 533px) {
     .about{
         p{
         font-size: 1.6rem;
+
         }
+        padding-bottom: 21px;
     }
 }
 

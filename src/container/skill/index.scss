@@ -41,3 +41,89 @@
         }
     }
 }
+@media only screen and (max-width : 630px){
+    .skills{
+        .skills-wrapper{
+            display: flex;
+            padding: 3px;
+            gap: 1px;
+        }
+        .inner-container{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+        .title{
+            display: inline-block;
+            color: white;
+            font-size: 21px;
+            font-weight: 550;
+            line-height: 1rem;
+            letter-spacing: 0.6px;
+            position: relative;
+            text-transform: uppercase;
+            padding: 7px;
+            border: 1.6px solid white;
+            &:hover{
+                background: white;
+                color: black;
+                cursor: pointer;
+            }
+        }
+        .item-wrapper{
+            padding:1px;
+            p{
+                font-size: 16px;
+            }
+            &:hover{
+                text-shadow: 0 0 12px white, 0 0 3px white;
+                cursor: pointer;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 420px){
+    .skills{
+        .skills-wrapper{
+            display: flex;
+            padding: 3px;
+            gap: 1px;
+        }
+        .inner-container{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+        .title{
+            display: inline-block;
+            color: white;
+            font-size: 16px;
+            font-weight: 550;
+            line-height: 1rem;
+            letter-spacing: 0.6px;
+            position: relative;
+            text-transform: uppercase;
+            padding: 7px;
+            border: 1.6px solid white;
+            &:hover{
+                background: white;
+                color: black;
+                cursor: pointer;
+            }
+        }
+        .item-wrapper{
+            padding:1px;
+            p{
+                font-size: 10px;
+            }
+            &:hover{
+                text-shadow: 0 0 12px white, 0 0 3px white;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -20,7 +20,7 @@
     height: 100vh;
     z-index: 10;
     position: fixed;
-    top: 79%;
+    top: 81%;
 
     background: transparent;
     display: flex;
@@ -36,6 +36,13 @@
 @media only screen and (max-width : 533px) {
     .waitText {
         font-size: 21px;
+    }
+}
+
+@media only screen and (max-width : 420px) {
+    .waitText {
+        font-size: 18px;
+        top: 86%;
     }
 }
 

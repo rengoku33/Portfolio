@@ -25,7 +25,7 @@
             position: relative;
             overflow: hidden;
             white-space: nowrap;
-            animation: fadeIn 5s, glow 3.3s ease-in-out infinite alternate;
+            animation: fadeIn 3s, glow 3.3s ease-in-out infinite alternate;
         }
     }
 
@@ -94,8 +94,7 @@
     .outer-class{
         .outer-text-wrapper{
             .h1-wrapper{
-                font-weight: 330;
-                font-size: 1.6rem;
+                display: none;
             }
         }
         .button-container {

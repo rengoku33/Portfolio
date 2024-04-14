@@ -11,8 +11,8 @@ const Resume = () => {
             <div className="button-container">
                 <Animate
                     play
-                    duration={2.5}
-                    delay={1.6}
+                    duration={3}
+                    delay={0.6}
                     start={{
                         opacity: 0
                     }}

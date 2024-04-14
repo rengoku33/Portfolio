@@ -108,7 +108,22 @@
         }
         .navbar-container-menu-item{
             font-size: 1.2rem;
-            margin-right: 0.1rem;
+            margin-right: 0;
+
+        }
+    }
+}
+
+@media only screen and (max-width : 420px){
+    .navbar{
+        .navbar-logo-container{
+            display: none;
+        }
+        .navbar-container-menu-item{
+            line-height: 0px;
+
+            font-size: 0.8rem;
+            margin-right: 0px;
 
         }
     }
