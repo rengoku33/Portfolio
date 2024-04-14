@@ -8,7 +8,7 @@ import "./index.scss";
 const data = [
     
     {
-        label: 'ABOUT ME',
+        label: 'ABOUT',
         to: '/about'
     },
     {
