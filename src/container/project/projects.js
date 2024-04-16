@@ -2,6 +2,7 @@ import thriftshop from '../../utility/thriftshop.png';
 import portfolio from '../../utility/portfolio.png';
 import boutique from '../../utility/boutique.png';
 import trident from '../../utility/trident.png';
+import celest from '../../utility/celestial.png';
 
 export const projects = [
     {
@@ -23,6 +24,15 @@ export const projects = [
     },
     {
         id: 3,
+        title: "Celestial Cast",
+        imgUrl: celest,
+        website: 'https://celestial-cast.vercel.app/',
+        repo: 'https://github.com/rengoku33/Celestial-Cast',
+        descn: 'A Next JS (React) app which leverages open-weather-API using AXIOS to make the API call. Once the GET request returns a succesful JSON object, it is de-structured and processed in weather component and styled using tailwind css. A simple but highly effective application.'
+
+    },
+    {
+        id: 4,
         title: "Sudha's Boutique",
         imgUrl: boutique,
         website: 'https://sudhasboutique.in/',
@@ -30,7 +40,7 @@ export const projects = [
 
     },
     {
-        id: 4,
+        id: 5,
         title: "Trident",
         imgUrl: trident,
         docs: 'https://github.com/rengoku33/Project-Documentation/blob/main/Trident-Documentation.pdf',
