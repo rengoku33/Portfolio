@@ -38,8 +38,8 @@ export default {
       },
       size: {
         value: {
-          min: 0.3,
-          max: 1.2
+          min: 0.1,
+          max: 1.1
         }
       }
     },

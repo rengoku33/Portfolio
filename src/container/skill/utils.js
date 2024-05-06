@@ -26,13 +26,13 @@ export const SkillsData = [
                 skillName: "React JS",
             },
             {
-                skillName: "Node JS",
+                skillName: "Next JS",
             },
             {
                 skillName: "Express JS",
             },
             {
-                skillName: "Firebase",
+                skillName: "MongoDB",
             },
             {
                 skillName: "PostgreSql",
