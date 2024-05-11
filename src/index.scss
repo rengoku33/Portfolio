@@ -1,5 +1,12 @@
 /*    KEEP FIGHTING THE GOOD FIGHT     */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+// Import Manrope font
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+// Define variables for font weights (optional)
+$font-regular: 'Manrope', sans-serif;
+$font-medium: 'Manrope Medium', sans-serif;
+$font-semibold: 'Manrope SemiBold', sans-serif;
+$font-bold: 'Manrope Bold', sans-serif;
 
 :root{
   --white-theme-background-color: black;
@@ -21,6 +28,7 @@ html{
 }
 
 body{
+  font-family: $font-regular; 
   background: var(--white-theme-background-color);
   height: 100%;
 }

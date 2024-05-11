@@ -36,7 +36,7 @@ export const projects = [
         title: "Sudha's Boutique",
         imgUrl: boutique,
         website: 'https://sudhasboutique.in/',
-        descn: 'Made a react application but the client insisted on being independent when managing the products and database. Hence migrated to a WordPress website for an easier backend UI'
+        descn: '(Commercial Project) Initially built a react application but the client insisted on being independent when managing the products and database. Hence migrated to a WordPress website for an easier backend UI for non devs'
 
     },
     {
@@ -44,6 +44,6 @@ export const projects = [
         title: "Trident",
         imgUrl: trident,
         docs: 'https://github.com/rengoku33/Project-Documentation/blob/main/Trident-Documentation.pdf',
-        descn: '(UG SENIOR - CAPSTONE PROJECT): Built a full stack Java web application with multiple front-end design (Carousel, Animated Content, 3D View, Responsive Elements) and added necessary logic such as Authentication (Email/pass), Booking etc.,'
+        descn: '(UG Senior Year - CAPSTONE Project): Built a full stack Java web application with multiple front-end design (Carousel, Animated Content, 3D View, Responsive Elements) and added necessary logic such as Authentication (Email/pass), Booking etc.,'
     },
 ]

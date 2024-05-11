@@ -39,7 +39,7 @@ export default {
       size: {
         value: {
           min: 0.1,
-          max: 1.1
+          max: 1
         }
       }
     },

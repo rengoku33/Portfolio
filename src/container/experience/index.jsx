@@ -31,7 +31,7 @@ const Experience = () => {
                                     <div className="title-wrapper">
                                         <h3>{item.title}</h3>
                                         <h4>{item.date}</h4>
-                                        <h4>{item.descn}</h4>
+                                        <h2>{item.descn}</h2>
                                     </div>
                                 </VerticalTimelineElement>
                             ))
