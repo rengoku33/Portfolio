@@ -3,33 +3,25 @@
     color: white;
 }
 
-.contact{
+.about{
     position:sticky;
+    padding-bottom: 99px;
+
 }
 
 p{
     display: flex;
     justify-content: center;
-
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-bottom: 7px;
+    padding-left: 3%;
+    padding-right: 3%;
     color: white;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2.1rem;
+    word-spacing: 3px;
     animation: fadeIn 5s;
-
-    // &:hover{
-    //     text-shadow: 0 0 9px white, 0 0 3px white;
-    // }
 }
 
-@media only screen and (max-width : 550px) {
-    .contact{
-        p{
-            font-size: 1.6rem;
-        }
-    }
-}
 
 @keyframes fadeIn{
     from{

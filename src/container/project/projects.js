@@ -11,7 +11,7 @@ export const projects = [
         imgUrl: thriftshop,
         website: 'https://the-thrift-shop.netlify.app/',
         repo: 'https://github.com/rengoku33/ThriftShop',
-        descn: 'A React web application with firestore database (Firebase). Implemented Authentication with OAuth (Google) and user/pass (inbuilt hash function for pass), products stored at database, used react hooks (useState, useContext, useEffect)'
+        descn: 'A classic React application with Redux and Firebase which leverages Reselect library to implement memoization and Redux-Persist to persist the current app state'
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ export const projects = [
         imgUrl: portfolio,
         website: 'https://kiran-vignesh-portfolio.netlify.app/',
         repo: 'https://github.com/rengoku33/Portfolio',
-        descn: 'A React web application with highly responsive and interactive UI, Implemented through various react modules (framer-motion, react-simple-animate, react-tsparticles, timeline-component) and CSS keyframes. Route handling using react-router-dom and deployed using netlify.'
+        descn: 'A React web application with highly responsive and interactive UI, Implemented through various react modules (framer-motion, react-simple-animate, react-tsparticles) and CSS keyframes.'
 
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
         imgUrl: celest,
         website: 'https://celestial-cast.vercel.app/',
         repo: 'https://github.com/rengoku33/Celestial-Cast',
-        descn: 'A Next JS (React) app which leverages open-weather-API using AXIOS to make the API call. Once the GET request returns a succesful JSON object, it is de-structured and processed in weather component and styled using tailwind css. A simple but highly effective application.'
+        descn: 'A simple and yet a highly functional Next JS app with external REST API integration (OpenWeatherMap API) while leveraging Static Site Generation to make the initial API call at build time'
 
     },
     {
@@ -36,7 +36,7 @@ export const projects = [
         title: "Sudha's Boutique",
         imgUrl: boutique,
         website: 'https://sudhasboutique.in/',
-        descn: '(Commercial Project) Initially built a react application but the client insisted on being independent when managing the products and database. Hence migrated to a WordPress website for an easier backend UI for non devs'
+        descn: 'Another E-commerce app similar to Thrift Shop but this one has more focus over the frontend components unlike the other one'
 
     },
     {
@@ -44,6 +44,6 @@ export const projects = [
         title: "Trident",
         imgUrl: trident,
         docs: 'https://github.com/rengoku33/Project-Documentation/blob/main/Trident-Documentation.pdf',
-        descn: '(UG Senior Year - CAPSTONE Project): Built a full stack Java web application with multiple front-end design (Carousel, Animated Content, 3D View, Responsive Elements) and added necessary logic such as Authentication (Email/pass), Booking etc.,'
+        descn: '(UG Senior Year - CAPSTONE Project): My first ever official project, A full stack Java web application with high-quality front-end with 3D View and necessary logic such as Authentication and Booking'
     },
 ]
