@@ -31,7 +31,7 @@ const About = () => {
             <p>
                 Intellect - It's 2022 and I just got my first job as a trainee at Intellect, the salary was not bad for starters, was introduced to a professional environment, worked with a 
                 bunch of seniors who were just incredible mentors to me, learnt that school smart is absolutely not enough at work, and it was a perfect transition from 
-                school to work environment. The truth it, I mastered the programming languages, frameworks, work flows, SDLCs we followed in under 3 months. It was a double 
+                school to work environment. The truth is, I mastered the programming languages, frameworks, work flows, SDLCs we followed in under 3 months. It was a double 
                 edged sword for me, GOOD in a way that proves my skills and ability to adapt new tech. BAD in a way that I got really comfortable with the environment. My daily life 
                 was completely monotonous, such that my motivation to do anything became regressive. The tasks assigned to me no-longer seemed to be interesting and only consumed time with 
                 little to medium effort. But hey, I was satisfied with the pay and no longer had any work pressure, Hence I 
@@ -50,15 +50,15 @@ const About = () => {
                 I felt unshackled in a lot of ways, I dont have to raise a ticket to IT for installing software, didnt have to push my code to the testing team, didnt have to wait on other devs 
                 for their response/contribution/approval, and much more. I also had genuine interactions with our CEO and was able to implement my ideas to the product. The best part is, my job 
                 is WFH but occasionally WFO. so, my work-life balance has never been better and I still have time to work on my side projects every now and then. but it all comes with a cost, 
-                the pay is not good and my comapany has fewer clients, once a product is pushed to production then there isnt much to do with support nad hence not much profit/funds involved.
+                the pay is not good and my comapany has fewer clients and none of them were MNCs, once a product is pushed to production then there isnt much to do with support. Hence not much profit/funds involved.
             </p><br />
             <p>
-                In conclusion - Thats it, this is my life so far and I genuinely enojy building projects and working on challenging environments, I wish to keep learning new tech rather than sticking 
-                with a particular tech stack or framework. My personal objective in life is to become a software engineer at FAANG and work on revolutionary products that has a significant 
-                impact in people's daily lives. you probably skmimmed through the above blog, if not I express my heartfelt thanks for spending time to know me.
+                In conclusion - Thats pretty much it, this is my life so far and I genuinely enojy building projects and working on challenging environments, I wish to keep learning new tech rather than sticking 
+                with a particular tech stack or framework. My personal objective in life is to become a software engineer at FAANGM and work on revolutionary products that has a significant 
+                impact in people's daily lives. Well, you probably skmimmed through the above blog, if not I express my heartfelt thanks for spending time to know me.
             </p><br />
             <p>
-                set your heart ablaze and push beyond your limits, right here, right now
+                set your heart ablaze and push yourself beyond your limits, right here, right now -Kyojuro Rengoku
             </p><br />
         </section>
     )

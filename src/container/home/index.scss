@@ -52,6 +52,28 @@
     }
 }
 
+.audio-wrapper {
+    background: transparent;
+    justify-content: right;
+    display: flex;
+    top: 90%;
+    margin-right: 3%;
+    .audio-box{
+        border: 1.6px solid white;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 33px;
+        padding-right: 20px;
+        display: flex;
+        .disc-cover{
+            margin-right: 21px;
+            animation: App-logo-spin infinite 10s linear;
+
+        }
+    }
+}
+
+
 
 
 @media only screen and (max-width: 933px) {
@@ -62,6 +84,7 @@
                 line-height: 5rem;
             }
         }
+
         .home-contact-button {
             display: flex;
             justify-content: center;
@@ -83,6 +106,7 @@
                 line-height: 5rem;
             }
         }
+
         .home-contact-button {
             display: flex;
             justify-content: center;
@@ -162,3 +186,12 @@
     }
 
 }
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

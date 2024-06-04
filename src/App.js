@@ -17,26 +17,12 @@ import particles from './utility/particles';
 import Experience from './container/experience';
 import { Animate } from 'react-simple-animate';
 import Loader from './components/loader/loader';
+// import Song from './components/song/song';
 
 
 function App() {
   const [init, setInit] = useState(false);
-/*
-  // useState for pre-loader
-  const [isLoading, setIsLoading] = useState(true);
 
-
-  // useEffect hook to deliberality load the page later (for preloader)
-  useEffect(() => {
-    const fakeDataFetch = () => {
-      setTimeout(() => {
-        setIsLoading(false);
-      }, 3300);
-    }
-
-    fakeDataFetch();
-  }, []);
-*/
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadFull(engine);
@@ -55,11 +41,7 @@ function App() {
     [],
   );
 
-  /*if (init) {
-    return (
-      
-    );
-  }*/
+  
 
   return (
     <div className='App'>
@@ -81,6 +63,7 @@ function App() {
         </Animate>
         {/* navbar */}
         <Navbar />
+        {/* <Song /> */}
 
         {/* main page content */}
         <div className='routes-container'>

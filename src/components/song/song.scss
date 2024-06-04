@@ -1,0 +1,27 @@
+.audio-wrapper {
+    background: transparent;
+    justify-content: right;
+    right: 1px;
+    display: flex;
+    top: 90%;
+    margin-right: 3%;
+    position: fixed;
+
+}
+
+.disc-cover {
+    margin-right: 21px;
+    animation: App-logo-spin infinite 10s linear;
+    position: relative;
+}
+
+.audio-box {
+    border: 1.6px solid white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 33px;
+    padding-right: 20px;
+    display: flex;
+    z-index: 100;
+    position: relative;
+}
