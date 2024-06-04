@@ -17,7 +17,7 @@ import particles from './utility/particles';
 import Experience from './container/experience';
 import { Animate } from 'react-simple-animate';
 import Loader from './components/loader/loader';
-// import Song from './components/song/song';
+import Song from './components/song/song';
 
 
 function App() {
@@ -63,7 +63,7 @@ function App() {
         </Animate>
         {/* navbar */}
         <Navbar />
-        {/* <Song /> */}
+        <Song />
 
         {/* main page content */}
         <div className='routes-container'>

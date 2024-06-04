@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Animate } from "react-simple-animate";
-import ReactAudioPlayer from 'react-audio-player';
-import audio from './Good-Computer.mp3'
-import { GiCompactDisc } from "react-icons/gi";
+// import ReactAudioPlayer from 'react-audio-player';
+// import audio from './Good-Computer.mp3'
+// import { SiDiscogs } from "react-icons/si";
 import "./index.scss";
 
 const Home = () => {
@@ -36,10 +36,10 @@ const Home = () => {
                     <button onClick={toContact}>Talk to me</button>
                 </div>
             </Animate>
-            <div className="audio-wrapper">
+            {/* <div className="audio-wrapper">
                 <div className="audio-box">
                     <div className="disc-cover">
-                        <GiCompactDisc size={50} />
+                        <SiDiscogs size={50} />
                     </div>
 
                     <ReactAudioPlayer
@@ -50,7 +50,7 @@ const Home = () => {
                         volume={0.02}
                     />
                 </div>
-            </div>
+            </div> */}
         </section >
     )
 }

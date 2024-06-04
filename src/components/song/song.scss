@@ -6,12 +6,13 @@
     top: 90%;
     margin-right: 3%;
     position: fixed;
+    z-index: 9999; /* Ensure it's on top of other elements */
 
 }
 
 .disc-cover {
     margin-right: 21px;
-    animation: App-logo-spin infinite 10s linear;
+    animation: spin infinite 10s linear;
     position: relative;
 }
 
@@ -24,4 +25,9 @@
     display: flex;
     z-index: 100;
     position: relative;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
