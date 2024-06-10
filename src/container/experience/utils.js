@@ -1,6 +1,6 @@
 export const experience = [
     {
-        title: "Software Engineer - Tann Mann Foundation",
+        title: "Full-stack developer - The Tann Mann",
         date: "Mar 23 - Present",
         descn: "MERN stack engineer, primarily worked on frontend"
     },
