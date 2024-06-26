@@ -3,6 +3,9 @@ export const SkillsData = [
         label: "Languages",
         data: [
             {
+                skillName: "TypeScript",
+            },
+            {
                 skillName: "JavaScript",
             },
             {
@@ -12,10 +15,7 @@ export const SkillsData = [
                 skillName: "Java",
             },
             {
-                skillName: "HTML/CSS",
-            },
-            {
-                skillName: "SQL",
+                skillName: "sql",
             }
         ]
     },
@@ -23,39 +23,42 @@ export const SkillsData = [
         label: "Frameworks",
         data: [
             {
+                skillName: "MongoDB",
+            },
+            {
                 skillName: "React JS",
             },
             {
                 skillName: "Next JS",
             },
             {
-                skillName: "Express JS",
+                skillName: "Angular",
             },
+  
             {
-                skillName: "MongoDB",
-            },
-            {
-                skillName: "PostgreSql",
+                skillName: "Mysql",
             }
         ]
     },
     {
         label: "Utility",
         data: [
+
+
             {
-                skillName: "Git",
+                skillName: "Arch-Linux",
             },
             {
                 skillName: "Postman",
             },
             {
-                skillName: "REST API",
+                skillName: "Neo-Vim",
             },
             {
-                skillName: "OAuth",
+                skillName: "Vim",
             },
             {
-                skillName: "NPM",
+                skillName: "Git",
             }
         ]
     }
