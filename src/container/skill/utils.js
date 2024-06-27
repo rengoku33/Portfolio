@@ -46,10 +46,10 @@ export const SkillsData = [
 
 
             {
-                skillName: "Arch-Linux",
+                skillName: "Cloud Services",
             },
             {
-                skillName: "Postman",
+                skillName: "Postman Tool",
             },
             {
                 skillName: "Neo-Vim",

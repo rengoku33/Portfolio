@@ -8,7 +8,7 @@ const Project = () => {
     return (
         <div className="outerClass">
 
-            <PageHeader headerText="Project Gallery" />
+            <PageHeader headerText="Domain Expansion: Muryōkūsho" />
             <div className="preview">
                 {
                     projects.map((product) => ( 

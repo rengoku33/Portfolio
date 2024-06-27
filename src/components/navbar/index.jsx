@@ -6,7 +6,10 @@ import { Link } from "react-router-dom";
 import "./index.scss";
 
 const data = [
-    
+    {
+        label: 'HOME',
+        to: '/'
+    },
     {
         label: 'ABOUT',
         to: '/about'
@@ -23,14 +26,14 @@ const data = [
         label: 'PROJECTS',
         to: '/project'
     },
-    {
-        label: 'RESUME',
-        to: '/resume'
-    },
-    {
-        label: 'CONTACT',
-        to: '/contact'
-    },
+    // {
+    //     label: 'RESUME',
+    //     to: '/resume'
+    // },
+    // {
+    //     label: 'CONTACT',
+    //     to: '/contact'
+    // },
 ]
 
 const Navbar = () => {

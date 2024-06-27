@@ -21,8 +21,8 @@
             color: white;
             margin: 0px;
             font-weight: 330;
-            font-size: 7rem;
-            line-height: 10rem;
+            font-size: 3rem;
+            line-height: 4.5rem;
             position: relative;
             overflow: hidden;
             white-space: nowrap;
@@ -33,12 +33,12 @@
     .home-contact-button {
         display: flex;
         justify-content: center;
-        margin-top: 33px;
+        margin-top: 16px;
 
         button {
             border: 1.6px solid white;
             cursor: pointer;
-            padding: 11px 77px;
+            padding: 11px 50px;
             font-size: 2rem;
             background: transparent;
             border-radius: 3.3px;

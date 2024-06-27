@@ -2,11 +2,11 @@ import React from "react";
 import "./index.scss";
 
 const PageHeader = (props) => {
-    const { headerText, icon } = props;
+    const { headerText } = props;
     return (
         <div className="wrapper">
             <h2>{headerText}</h2>
-            <span>{icon}</span>
+            {/* <span>{icon}</span> */}
         </div>
     )
 }

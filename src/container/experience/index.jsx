@@ -10,7 +10,7 @@ const Experience = () => {
         <section className="exp">
             <div className="timeline">
                 <div className="timeline-work">
-                    <h3 className="header">Experience</h3>
+                    <h3 className="header">Professional</h3>
                     <VerticalTimeline layout={'1-column'} lineColor="var(--white-theme-main-color)">
                         {
                             experience?.map((item, i) => (
@@ -59,6 +59,7 @@ const Experience = () => {
                                 >
                                     <div className="title-wrapper">
                                         <h3>{item.title}</h3>
+                                        <h4>{item.date}</h4>
                                         <h4>{item.descn}</h4>
                                     </div>
                                 </VerticalTimelineElement>

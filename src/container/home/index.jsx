@@ -16,15 +16,15 @@ const Home = () => {
         <section id="home" className="home">
             <div className="home-text-wrapper">
                 <h1 className="h1-wrapper">
-                    Hello Traveller, I'm Kiran Vignesh,
+                    Why does anyone wish upon a star?
                     <br />
-                    Welcome to my galaxy
+                    Superstitions? Possibly.
+
                 </h1>
             </div>
             <Animate
                 play
-                duration={2.5}
-                delay={2}
+                duration={3}
                 start={{
                     opacity: 0
                 }}
@@ -33,7 +33,7 @@ const Home = () => {
                 }}
             >
                 <div className="home-contact-button">
-                    <button onClick={toContact}>Talk to me</button>
+                    <button onClick={toContact}>Contact Me</button>
                 </div>
             </Animate>
             {/* <div className="audio-wrapper">
