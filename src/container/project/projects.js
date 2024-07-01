@@ -1,6 +1,5 @@
-import thriftshop from '../../utility/thriftshop.png';
-import portfolio from '../../utility/portfolio.png';
-import boutique from '../../utility/boutique.png';
+import thriftsho from '../../utility/thriftshop.png';
+import portfoli from '../../utility/portfolio.png';
 import trident from '../../utility/trident.png';
 import celest from '../../utility/celestial.png';
 import witch from '../../utility/witcher.png';
@@ -9,7 +8,7 @@ export const projects = [
     {
         id: 1,
         title: "Thrift Shop",
-        imgUrl: thriftshop,
+        imgUrl: thriftsho,
         website: 'https://the-thrift-shop.netlify.app/',
         repo: 'https://github.com/rengoku33/ThriftShop',
         descn: '(React JS + SASS / NodeJS / Firebase) An Ecommerce app with Redux which leverages Reselect library to implement memoization and Redux-Persist to persist the current app state'
@@ -17,7 +16,7 @@ export const projects = [
     {
         id: 2,
         title: "Personal Portfolio",
-        imgUrl: portfolio,
+        imgUrl: portfoli,
         website: 'https://kiran-vignesh-portfolio.netlify.app/',
         repo: 'https://github.com/rengoku33/Portfolio',
         descn: '(React JS + raw CSS / NodeJS) A portfolio app with highly responsive and interactive UI, Implemented by react modules (framer-motion, react-simple-animate, react-tsparticles) and CSS keyframes.'
