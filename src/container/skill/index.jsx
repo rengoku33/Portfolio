@@ -7,7 +7,7 @@ import { SkillsData } from "./utils.js";
 const Skill = () => {
     return (
         <section className="skills">
-            <PageHeader headerText="Current Arsenal" />
+            <PageHeader headerText="My Current Arsenal" />
             <div className="skills-wrapper">
                 {
                     SkillsData.map((item, i) => (

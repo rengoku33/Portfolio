@@ -15,6 +15,10 @@ const data = [
         to: '/about'
     },
     {
+        label: 'PROJECTS',
+        to: '/project'
+    },
+    {
         label: 'EXPERIENCE',
         to: '/experience'
     },
@@ -22,10 +26,7 @@ const data = [
         label: 'SKILLS',
         to: '/skill'
     },
-    {
-        label: 'PROJECTS',
-        to: '/project'
-    },
+    
     // {
     //     label: 'RESUME',
     //     to: '/resume'

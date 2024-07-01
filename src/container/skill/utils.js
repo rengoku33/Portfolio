@@ -23,7 +23,7 @@ export const SkillsData = [
         label: "Frameworks",
         data: [
             {
-                skillName: "MongoDB",
+                skillName: "Spring Boot",
             },
             {
                 skillName: "React JS",
@@ -49,13 +49,13 @@ export const SkillsData = [
                 skillName: "Cloud Services",
             },
             {
-                skillName: "Postman Tool",
+                skillName: "Unit Testing",
             },
             {
-                skillName: "Neo-Vim",
+                skillName: "neo-Vim",
             },
             {
-                skillName: "Vim",
+                skillName: "Docker",
             },
             {
                 skillName: "Git",
