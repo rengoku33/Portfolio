@@ -17,7 +17,7 @@ const Song = () => {
                         autoPlay={true}
                         controls
                         loop
-                        volume={0.01}
+                        volume={0.07}
                     />
                 </div>
             </div>

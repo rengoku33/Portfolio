@@ -1,5 +1,10 @@
 export const experience = [
     {
+        title: "Full-Stack Developer - Elite Tech Park",
+        date: "Oct 24 - Mar 25",
+        descn: "Multiple tech stacks on various spectrum of projects"
+    },
+    {
         title: "Full-Stack Intern - Unruffled Feathers",
         date: "Jan 24 - Jun 24",
         descn: "MERN stack engineer, primarily worked on frontend"

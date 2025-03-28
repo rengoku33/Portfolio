@@ -49,7 +49,7 @@ export const SkillsData = [
                 skillName: "Cloud Services",
             },
             {
-                skillName: "Unit Testing",
+                skillName: "Testing Tools",
             },
             {
                 skillName: "neo-Vim",

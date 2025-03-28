@@ -7,17 +7,19 @@ const About = () => {
         <section className="about">
             <PageHeader headerText="Who am I?" />
             <p style={{ fontSize: '2.1rem', textAlign: 'center' }}>
+                Ever heard of the song by Ryan Gosling? which goes something like<br/>
                 I'm just Kiran, anywhere else I'd be a ten<br/>
                 Is it my destiny to live and die a life of Vim superiority?<br/>
-                I'm just Kiran<br/>
-                Where I see love, she sees a friend<br/>
-                What will it take for her to see the man behind the tan and fight for me?
+                
             </p><br /><br /><br />
             <p style={{ fontSize: '2.1rem' }}>
-                Alright, jokes aside... I am Kiran Vignesh (23, M) and I genuinely like to code and work on projects with a tech stack different from the one I use at work
+                Alright, jokes aside... I am just a Software Engineer who genuinely like to code and work with various tech stacks and domains.
             </p>
             <p style={{ fontSize: '2.1rem' }}>
-                Why? The reason is as simple as it seems, so that I could learn new languages, frameworks, practices and rekindle my motivation to build something I want to.
+                Be it frontend, backend, code optimizaions, debugging, networking, IOT, AI/ML or whatever you name it. If it catches my eye I will conquor it.
+            </p>
+            <p style={{ fontSize: '2.1rem' }}>
+                Why? The reason simple and obvious, so that I could learn new languages, frameworks, practices and spark my motivation to build something interesting.
             </p><br /><br /><br />
 
             <p style={{ fontSize: '2.1rem' }}>
